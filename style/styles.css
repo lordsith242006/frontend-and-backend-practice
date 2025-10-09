@@ -267,7 +267,26 @@ body {
 .product-button:hover {
     background: linear-gradient(135deg, #4872bf 0%, #2b4c8f 100%);
 }
+.contact-button {
+    background: linear-gradient(135deg, #2d4a9d 0%, #1d3572 100%);
+    color: #cad5fb;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    border: 1px solid #405eaa;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 30px auto;
+    max-width: 200px;
+}
 
+.contact-button:hover {
+    background: linear-gradient(135deg, #4872bf 0%, #2b4c8f 100%);
+    transform: translateY(-2px);
+}
 .contacts-container {
     text-align: center;
 }
